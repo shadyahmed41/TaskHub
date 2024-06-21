@@ -1,0 +1,513 @@
+:root {
+  --lightgrey: rgb(231, 229, 229);
+--purple: #7d21b3;
+--lightpurple: #b04ae0;
+--lightergrey: #f4f4f4;
+--lightgreyy: rgb(241, 241, 241);
+--greyy: rgb(187, 185, 185);
+}
+
+/* body{
+  display: flex;
+} */
+
+ .navbar{
+  background-color:rgb(231, 229, 229);
+  float: left;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+ .navcontent{
+  width: 140px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  border: none ;
+  /* border: #001831 1px solid; */
+  color: var(--Navy);
+  /* justify-content: center; */
+  display: flex;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+ .navicons{
+  width: 20px;
+  height: fit-content;
+  margin-right: 20px;
+  margin-top: px;
+}
+
+.dashboard .current{
+  width: 10%;
+  height: 2%;
+  background-color: black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 1;
+}
+
+.dashboard .main{
+  width: 84vw;
+  height: 100vh;
+  overflow: auto;
+  right: 0;
+  top: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;    
+  background-color: white;
+}
+
+.dashboard .statistics{
+  border-bottom: 5px solid grey;
+  border-left: 5px solid grey;
+  width: 70%;
+  height: 50%;
+  /* right: 0; */
+  /* top: 0; */
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 50px;
+  margin-right: 150px;
+  background-color: transparent;
+  color: var(--Navy);
+  /* position: fixed; */
+}
+
+.dashboard .postBox{
+  width: 60%;
+  height: fit-content;
+  margin: 50px;
+  /* margin-left: 200px; */
+}
+
+.dashboard .post{
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: fit-content;
+  padding: 30px;
+  padding-bottom: 0%;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dashboard .author{
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+
+.dashboard .pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 3px;
+}
+
+.dashboard .comment{
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: fit-content;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.commentbox{
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  width: 780px;
+  padding: 20px;
+}
+
+.eachcomment{
+  width: fit-content;
+  height: fit-content;
+  min-height: 50px;
+  min-width: 250px;
+  max-width: 600px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  padding-bottom: 0;
+  position: relative;
+  margin-bottom: 0;
+}
+
+
+
+
+.dashboard .likeorcomment:hover{
+  background-color: lightgrey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dashboard .info{
+  padding-left: 20px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* position: relative; */
+  place-items: center;
+  place-content: center;
+}
+
+.dashboard .content{
+  height: fit-content;
+  width: 100%;
+
+}
+
+.dashboard .reaction{
+  background-color: transparent;
+  width: 50%;
+}
+.dashboard .reaction:hover{
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 0 2px grey, /* Inner border */
+  0 0 0 3px white; 
+
+}
+
+.dashboard .profile{
+  border-radius: 100%;
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.dashboard .buttonlhp{
+  height: fit-content;
+  width: fit-content;
+  background-color: var(--lightgrey);
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px;
+  color: var(--Navy);
+  font-size: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .dashboard .buttonlhp:hover
+{
+  background-color: rgb(215, 213, 213);
+  
+
+}
+
+.dashboard .addm{
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+}
+
+/* leaderHp.css */
+
+.LHP .popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  width:700px;
+  height: fit-content;
+  border-radius: 30px;
+  align-items: center;
+  z-index: 1000;
+}
+
+.LHP .popupbutton {
+ 
+  padding: 8px 16px;
+  color: white; /* Dark text color */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  bottom: 0;
+  width: 20%;
+  margin:20px;
+}
+
+.LHP .closebutton{
+  background-color: grey;
+  border: none;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.LHP .closebutton:hover{
+  background-color: lightgrey;
+}
+
+.LHP .okbutton{
+  background-color: var(--purple);
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.okbutton:hover{
+  background-color: var(--lightpurple);
+}
+
+.LHP .popup h3{
+  color: #7d21b3;
+  font-size: 20px;
+}
+
+.LHP .popup input{
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+  color: black;
+}
+
+.LHP .add{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--lightgrey);
+  color: black;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  padding-left: 12px;
+  position: relative;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  margin-right: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+
+.LHP .input-with-select {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  height: auto;
+}
+
+.LHP .add option[value="image"] {
+  background-image: url('path/to/photofilm-icon.png');
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.LHP .add option[value="file"] {
+  background-image: url('path/to/file-icon.png');
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.LHP .input-text {
+  /* width: 50%; 
+  height: auto; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  overflow-wrap: break-word */
+}
+
+.LHP .addmembers{
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.LHP .AMways{
+  width: calc(100%/3);
+  height: fit-content;
+  border: none;
+  margin: 10px;
+}
+
+.LHP .inputways{
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* word-wrap: break-word; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.LHP .buttonways{
+  width: 100px;
+  padding: 0;
+  margin-top: 20px;
+  height: 30px;
+  background-color: var(--purple);
+  border: none;
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 20px;
+  
+}
+.LHP .buttonways:hover{
+  background-color: var(--lightpurple);
+}
+
+.recommend{
+  width: 150px;
+  height: fit-content;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 21px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.footer{
+  background-color: rgb(201, 201, 201) ;
+  padding: 20px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.popuprequests {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  background-color: var(--lightgrey);
+  padding: 20px;
+  z-index: 5;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 80%; /* Adjust the maximum width as needed */
+  max-height: 80%; /* Adjust the maximum height as needed */
+}
+
+.popuprequests h3 {
+  margin-bottom: 10px;
+}
+
+.popuprequests ul {
+  list-style: none;
+  padding: 0;
+}
+
+.popuprequests li {
+  margin-bottom: 10px;
+}
+
+.popuprequests .buttoncancel {
+  margin-left: 10px;
+  background-color: var(--lightgrey);
+  border: none;
+}
+
+.popuprequests .buttoncancel:hover{
+  background-color: var(--greyy);
+}
+
+.dashboard .commentsList{
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.dashboard .replycontent{
+  margin: 60px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  word-wrap: break-word;
+  }
+
+  .likespopupdashboard {
+  
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      padding: 20px;
+      z-index: 1; 
+      width: 490px;
+      height:fit-content;
+      /* min-height: 250px; */
+
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Darken the background */
+    z-index: 999; /* Ensure the backdrop is behind the popup */
+  }
+
+  .signoutbtn{
+    background-color: red;
+    border: none;
+  }
+  
+  .suggestionsforaddingmember{
+    width: 220px;
+    max-height: 150px;
+    /* margin-left: 70px; */
+    margin-top: 0;
+    border: 2px solid grey;
+    overflow-x: hidden;
+    color: grey;
+    font-size: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .eachsuggestionforaddingmember{
+    padding: 10px;
+    margin: 0;
+  }
+  .eachsuggestionforaddingmember:hover{
+    background-color: var(--lightgrey);
+  }

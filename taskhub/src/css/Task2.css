@@ -1,0 +1,516 @@
+:root{ 
+  --lightgrey: rgb(241, 241, 241);
+  --greyy: rgb(187, 185, 185);
+}
+
+
+    .taskleader .Title h3{
+    /* position: absolute;
+    width: 258px;
+    height: 36px;
+    left: 300px;
+    margin-top: 43px;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    color: #8A46BB; */
+    
+    }
+
+    .taskleader .taskbox{
+    position: fixed;
+    width: 44%;
+    height: 8%;
+    left: 320px;
+    margin-top: 100px;
+    background: rgba(225, 223, 223);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(86, 85, 85);
+    border-style: solid;
+    border-width: 2px;
+ 
+
+    }
+    .taskleader .descriptions{
+    position: fixed;
+    width: 38%;
+    /* height: %; */
+    left: 320px;
+    margin-top: 155px;
+    background: rgba(234, 233, 233, 0.6);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(86, 85, 85);
+    font-family: 'Khmer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 176.69%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    line-height: 2.8em;
+    
+    }
+   
+
+
+
+    .taskleader .line{
+    position: flex;
+    width: 100%;
+    height: 0px;
+    border: 0.5px solid rgb(204, 204, 204);
+    /* transform: translate(-50%, -50%); */
+    left: 320px;
+     
+}
+.taskleader .dropdown{
+
+    position: absolute;
+    width: 206px;
+    height: 22px;
+    left: 50%;
+    /* top: 30%; */
+    background: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.taskleader .line2{
+    position: absolute;
+    width: 76%;
+    height: 0px;
+    border: 0.2px solid rgb(223, 220, 220);
+    /* transform: translate(-50%, -50%); */
+     top: 380px;
+     left: 300px;
+
+}
+.taskleader .Title2 h3{
+    position: absolute;
+    width: 258px;
+    height: 36px;
+    margin-top: 400px; 
+    margin-left: 300px;
+    /* font-family: 'Inter'; */
+    font-style:normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    color: #8A46BB;
+    padding-bottom: 20px;
+}
+
+.taskleader .descriptions2{
+    /* position: fixed; */
+    width: 38%;
+    /* height: 30%; */
+    left: 320px;
+    /* top: 81%; */
+    margin-top: 510px;
+    background: rgba(234, 233, 233, 0.6);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(86, 85, 85);
+    font-family: 'Khmer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+   line-height: 176.69%;
+   letter-spacing: 0.05em;
+   color: #000000;
+   line-height: 2.8em;
+}
+.taskleader .taskbox2{
+    position: fixed;
+    width: 44%;
+    height: 8%;
+    left: 320px;
+   margin-top: 455px;
+    background: rgba(225, 223, 223);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(231, 140, 57);
+    border-style: solid;
+    border-width: 2px;
+}
+.taskleader .taskbox3{
+    position: fixed;
+    width: 40%;
+    /* height: 8%; */
+    left: 320px;
+    top: 100%;
+    background: rgba(234, 233, 233, 0.6);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(231, 140, 57);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.taskleader .popuptask{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 20px;
+  z-index: 99999; 
+  width: 490px;
+  height:fit-content;
+}
+
+.taskleader .popuptask h2{
+width: 113px;
+height: 29px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 29px;
+color: #8A46BB;
+}
+
+.taskleader .confirmtaskpopup{
+/* margin-top: 40px; */
+padding: 10px 20px;
+background-color:#8A46BB;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 30px;  
+}
+
+.taskleader .confirmtaskpopup:hover {
+  background-color: rgb(219, 164, 219);
+}
+
+.taskleader .canceltaskpopup{
+  background-color: var(--greyy);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 25%;  
+}
+
+.taskleader .canceltaskpopup:hover{
+  background-color: var(--lightgrey);
+}
+
+.taskleader .linepop{
+
+  position: absolute;
+  width: 450px;
+  height: 0px;
+  left: 50%;
+  top: 15%;
+  border: 0.1px solid #8A46BB;
+  transform: translate(-50%, -50%);
+  margin-bottom: 20px;
+   }
+
+.taskleader .name{ 
+height: fit-content;
+width: 60% ;
+padding-bottom: 10px;
+background-color: rgb(255, 255, 255);
+border-radius: 7px;
+border: 2px solid #c4c1c1;
+justify-content: center;
+} 
+
+.taskleader .name h2{
+ color: #494747;
+ font-size: small;
+ padding-left: 10px;
+} 
+
+ /* .pri p{
+ font-weight: 300;
+
+           
+  } */
+ /* .pbox{
+    position: flex;
+    width: 120px;
+    height: 22px;
+    background: #e7e3e3;
+    border-radius: 5px;
+} */
+/* .pri, .due {
+    flex: 1; 
+    margin-right: 0px;     
+} */
+.taskleader .containerss{
+    display:flex;
+    flex-wrap: wrap;
+    color: #000000;
+}
+
+.taskleader .Assign {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.taskleader .name input[type="text2"] {
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the default border */
+    outline: none;
+    color: #9c9c9c;
+    /* padding-left: 10px; */
+ }
+
+ .taskleader select {
+    padding: 3px 10px; 
+    font-size: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #333; 
+    width: 150px; 
+    margin: 5px;
+ }
+
+ .taskleader .edit-section {
+    margin: 0px 40px 0px 30px; /* Add margin between sections */
+    position: relative; /* Make it a positioned container */
+  }
+  
+  .taskleader .edit-section p {
+    margin: 0px; /* Add margin below the paragraph */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+   line-height: 176.69%;
+   letter-spacing: 0.05em;
+   margin-left: 20px;
+  }
+  .taskleader .titlee{
+    width: 44%;
+    height: 8%;
+    left: 320px;
+    margin-top: 100px;
+    background: rgba(225, 223, 223);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(86, 85, 85);
+    border-style: solid;
+    border-width: 2px;
+ 
+  }
+  
+  .taskleader .details{
+    width: 38%;
+    /* height: 30%; */
+    left: 320px;
+    /* top: 81%; */
+    margin-top: 510px;
+    background: rgba(234, 233, 233, 0.6);
+    border-radius: 11px;
+    padding: 20px;
+    border-color: rgb(86, 85, 85);
+    font-family: 'Khmer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+   line-height: 176.69%;
+   letter-spacing: 0.05em;
+   color: #000000;
+   line-height: 2.8em;
+  }
+  .taskleader .taskeditname input[type="text"] {
+    background-color: #fff;
+    border-radius: 5px;
+    border: #9c9c9c;
+    color: #000000;
+    height: 25px;
+    width: 80%;
+    padding-left: 10px;
+    margin: 5px;
+  }
+  .taskleader .edit-section input[type="text"] {
+    background-color: #fff;
+    border-radius: 5px;
+    border: #9c9c9c;
+    color: #000000;
+    height: 25px;
+    width: 80%;
+    padding-left: 10px;
+    margin: 5px;
+  }
+  .taskleader .edit-section p{
+    color: #000000;
+  }
+  .taskleader .custom-progress {
+  margin:10px;
+  
+  }
+  .taskleader .divider{
+    width: 220%;
+    height: 0px;
+    left: 0%;
+    top: 20%;
+    border: 0.2px solid #d3d3d3;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+  }
+  
+  .taskleader .popup-content .containerss {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .taskleader .popup-content .containerss .pri{
+    width: calc(35% - 10px); /* Adjust as needed */
+    margin-right: 80px; /* Adjust as needed */
+    margin-left: 0px;
+
+  }
+  .taskleader .popup-content .containerss .due {
+    width: calc(40% - 10px); /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .taskleader .popup-content .containerss .pri p,
+  .taskleader .popup-content .containerss .due p {
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  /* .popup-content .containerss .phase{
+    margin-right: 80px; 
+    margin-left: 10px;
+
+
+  } */
+  .taskleader .popup-content .containerss .assign{
+    margin-right: 0px; /* Adjust as needed */
+    margin-left: 10px;
+
+
+  }
+  
+  .taskleader .popup-content .containerss .pri select,
+  .taskleader .popup-content .containerss .due input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .taskleader .due {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .taskleader .due p {
+    margin-bottom: 5px;
+     /* Adjust as needed */
+  }
+  
+  .taskleader .due input[type="date"] {
+    /* width: 70%; */
+    height:40% ;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  .taskleader .startdate input[type="date"] {
+    /* width: 70%; */
+    height:40% ;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-right:30px ;
+  }
+
+  .taskleader .due input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+  }
+
+  .taskleader .startdate input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+  }
+
+  .taskleader .assign input[type="text"] {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: fit-content;
+    margin-left: 70px;
+  }
+ 
+  .taskleader .suggestionstask2{
+    width: 220px;
+    max-height: 150px;
+    margin-left: 70px;
+    margin-top: 0;
+    border: 2px solid grey;
+    overflow-x: hidden;
+    color: grey;
+    font-size: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .eachsuggestiontask2{
+    padding: 10px;
+    margin: 0;
+  }
+  .eachsuggestiontask2:hover{
+    background-color: var(--lightgrey);
+  }
+  .taskleader .suggestions{
+    width: 220px;
+    max-height: 150px;
+    margin-left: 70px;
+    margin-top: 0;
+    border: 2px solid grey;
+    overflow-x: hidden;
+    color: grey;
+    font-size: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .eachsuggestion{
+    padding: 10px;
+    margin: 0;
+  }
+  .eachsuggestion:hover{
+    background-color: var(--lightgrey);
+  }
+
+ .taskbtn{
+    /* position: relative; */
+    width: 12%;
+    padding: 10px;
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(234, 233, 233);
+    border-radius: 30px;
+    border: none;
+    color: #150909;
+    cursor: pointer;
+    /* float: right; */
+    font-size: 13px;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.2)  
+
+}
+.taskbtn:hover{
+    background-color: rgb(215, 213, 213);
+}
+
+

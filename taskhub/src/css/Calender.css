@@ -1,0 +1,310 @@
+/* Calendar.css */
+
+
+.calender-main {
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+  height: 100vh;
+  overflow: auto;
+  right: 0;
+  top: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .navbarb {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+} */
+
+.calender-left{
+  background-color: white;
+  display: flex ;
+  flex-Direction: column ;
+  height: 100%;
+}
+
+
+
+.addeventbtn:hover{
+  background-color: rgb(215, 213, 213);
+}
+
+.schedulepopupday{
+  position: fixed;
+  background-color: white;
+  z-index: 5;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}
+.schedulelist {
+  padding: 20px;
+  width: 500px;
+  height: fit-content;
+}
+
+
+.calendar-container {
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(38, 38, 101);
+  color: grey;
+}
+
+/* .h1 {
+  color: #a23636;
+}  */
+
+
+.calendar {
+  display: grid ;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  /* max-width: 500px; */
+  margin: 0 auto;
+  width: 40vw; 
+  height: 80%;
+  
+  
+
+
+}
+/* Calendar.css */
+
+
+.calender-main {
+display: flex;
+flex-direction: row;
+width: 85vw;
+height: 100vh;
+overflow: auto;
+right: 0;
+top: 0;
+position: absolute;
+justify-content: center;
+align-items: center;
+}
+
+/* .navbarb {
+background-color: #3498db;
+color: #fff;
+padding: 10px;
+width: 100%;
+text-align: center;
+} */
+
+.calender-left{
+background-color: white;
+display: flex ;
+flex-Direction: column ;
+height: 100%;
+}
+
+.addeventbtn {
+padding: 10px;
+width: 150px;
+background-color: rgb(234, 233, 233);
+font-size: 20px;
+color: black;
+border: none;
+border-radius: 30px;
+position: absolute;
+right: 0;
+margin-top: 50px;
+margin-right: 30px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.schedulelist {
+padding: 20px;
+border: 1px solid #ddd;
+width: 500px;
+margin-bottom: 20%;
+margin-top: 10%;
+height: fit-content;
+}
+
+
+.calendar-container {
+margin-top: 0;
+text-align: center;
+width: 100%;
+height: 100%;
+background-color: rgb(38, 38, 101);
+
+
+}
+
+/* .h1 {
+color: #a23636;
+}  */
+
+
+.calendar {
+display: grid ;
+grid-template-columns: repeat(7, 1fr);
+gap: 5px;
+/* max-width: 500px; */
+margin: 0 auto;
+width: 40vw; 
+height: 80%;
+
+
+
+
+}
+
+.calender-day {
+width: 60px; /* Adjust according to your preference */
+height: 60px; /* Adjust according to your preference */
+line-height: 30px; /* Adjust according to your preference */
+border-radius: 50%; /* Make it circular */
+padding: 5px; /* Adjust according to your preference */
+text-align: center;
+cursor: pointer;
+margin: 2px;
+background-color:rgb(38, 38, 101) ;
+border: #f2f2f2 solid;
+
+
+}
+
+.current-month {
+background-color: #f2f2f2;
+}
+
+.calender-today {
+background-color: #3498db;
+color: #fff;
+}
+
+.has-events {
+background-color: #ffcc00; /* Color for days with events */
+color: #333;
+}
+
+.assigned-schedules {
+margin-top: 20px;
+text-align: center;
+}
+
+.assigned-schedules h2 {
+color: #333;
+}
+
+.assigned-schedules ul {
+list-style: none;
+padding: 0;
+}
+
+.assigned-schedules li {
+margin: 10px 0;
+font-size: 14px;
+}
+
+.calendarbtn{
+padding: 10px;
+background-color: lightgray;
+/* size: 30px; */
+border-radius: 10px;
+border:none;
+font-size: 15px;
+margin: 10px;
+}
+
+.calender-SpanStyle {
+font-weight: bold;
+color: white;
+}
+.calender-day {
+  width: 60px; /* Adjust according to your preference */
+  height: 60px; /* Adjust according to your preference */
+  line-height: 30px; /* Adjust according to your preference */
+  border-radius: 50%; /* Make it circular */
+  padding: 5px; /* Adjust according to your preference */
+  text-align: center;
+  cursor: pointer;
+  margin: 2px;
+  background-color:rgb(38, 38, 101) ;
+  border: #f2f2f2 solid;
+  
+
+}
+
+.current-month {
+  background-color: #f2f2f2;
+}
+
+.calender-today {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.has-events {
+  background-color: #ffcc00; /* Color for days with events */
+  color: #333;
+}
+
+.assigned-schedules {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.assigned-schedules h2 {
+  color: #333;
+}
+
+.assigned-schedules ul {
+  list-style: none;
+  padding: 0;
+}
+
+.assigned-schedules li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.calendarbtn{
+  padding: 10px;
+  background-color: lightgray;
+  /* size: 30px; */
+  border-radius: 10px;
+  border:none;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.calender-SpanStyle {
+  font-weight: bold;
+  color: white;
+}
+
+.CPButton{
+  margin-right: 15px;
+  font-size: 15px;
+  background-color: lightgrey;
+  color: black;
+  border: none;
+}
+
+.CPButton:hover{
+  background-color: purple;
+  color: white;
+}
+
+.activeCPButton{
+  background-color: purple;
+  color: white;
+}

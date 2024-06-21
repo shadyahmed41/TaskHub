@@ -1,0 +1,334 @@
+
+.description .App-logo {
+    position: fixed;
+    width: 100%;
+    height: 17%;
+    left: 15%;
+    right: 0%;
+    top: 0;
+    margin: 0;
+    z-index: 0;
+}
+.description .text h2 {
+position: fixed;
+width: 50%;
+height: 30%;
+left: 30%;
+top: 0%;
+font-family: 'Khmer';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 62px;
+text-align: center;
+color: black;
+z-index: 1;
+}
+.description .date {
+/* position: fixed; */
+width: 50%;
+height: 20%;
+left: 30%;
+top: 50%;
+font-family: 'Khmer';
+font-style: normal;
+/* font-weight: 400; */
+font-size: 30px;
+/* line-height: 34px; */
+color: #0E0D38;
+
+
+}
+.description .description-box{
+position: fixed;
+width: 50%;
+height: 15%;
+left: 510px;
+top: 30%;
+background: rgba(234, 233, 233, 0.6);
+border-radius: 11px;
+border: none;
+/* cursor: pointer; */
+padding: 20px;
+color: #0E0D38;
+
+}
+.description .description-box2{
+    position: fixed;
+    width: 50%;
+    height: 15%;
+    left: 510px;
+    top: 55%;
+    background: rgba(234, 233, 233, 0.6);
+    border-radius: 11px;
+    border: none;
+    padding: 20px;
+}
+.description .des h4{
+position:fixed;
+width: 20%;
+height:15%;
+left: 28%;
+top: 25%;
+font-family: 'Khmer';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+
+color: #0E0D38;
+
+
+}
+.description .req h4{
+position: fixed;
+width: 20%;
+height:20%;
+left: 28%;
+top: 55%;
+font-family: 'Khmer';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+
+}
+.description .desbutton1{
+    position: absolute;
+    width: 20%;
+    height: 60px;
+    left: 62%;
+    top: 80%;
+    border-radius: 10px;
+    font-family: 'Khmer';
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* shady update  */
+
+.description .desbutton2{
+width: fit-content;
+height: 40px;
+background: lightgrey;
+border-radius: 10px;
+font-family: 'Khmer';
+display: flex;
+justify-content: center;
+align-items: center;
+/* font-style: normal; */
+/* font-weight: 400; */
+margin: 10px;
+color:white;
+border: none;
+}
+
+.description .descriptioninput{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.description .popup{
+position: fixed;
+top: 50%;
+left: 50%;
+/* transform: translate(-50%, -50%); */
+background-color: rgb(17, 17, 17);
+border: 1px solid #ccc;
+border-radius: 30px;
+padding: 20px;
+z-index: 1000; 
+width: 350px;
+height: 200px;
+box-shadow:black;
+
+}
+.description .popup button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:#8A46BB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:5% 
+}
+.description .popup h3{
+    color: #8A46BB;
+    padding-left: 30px;
+    margin-top: 0%;
+
+}
+.description .line{
+
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 50%;
+    top: 20%;
+    border: 1px solid #8A46BB;
+    transform: translate(-50%, -50%);
+     }
+
+
+     
+ .description .Title2 p{
+/* position: fixed; */
+/* width: 162px;
+height: 45px; */
+/* left: 50%;
+top: 50%; */
+font-family: 'Khmer';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 176.69%;
+/* or 28px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+}
+
+.description .Pnameinput{
+    position: relative; /* Make sure it's positioned relative or absolute */
+    width: 200px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    padding: 8px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Adjust border styles/colors as needed */
+    border-radius: 4px; /* Adjust border radius as needed */
+    font-size: 16px;
+    z-index: 1;
+    margin-top: 30px;
+    background-color: white;
+    opacity: 50%;
+    color: #000000;
+}
+
+
+.p-button-p-button-secondary{
+    background-color:grey;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+
+}
+
+ .alert{
+    height: fit-content;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px ;
+    z-index: 1000;
+    
+}
+.inputd{
+    background-color:white;
+    width: 450px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 900; /* Ensure the overlay is behind the popup */
+  }
+
+  .desbutton3{
+    width: fit-content;
+    height: 40px;
+    background: lightgrey;
+    border-radius: 10px;
+    font-family: 'Khmer';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    margin: 10px;
+    color:black;
+    
+
+  }
+
+  .show-password-icon {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    cursor: pointer;
+    color: black;
+  }
+   .confirmbtn{
+    background-color: #7d21b3;
+    border: 0;
+    margin-right: 20px;
+   }
+   .confirmbtn:hover{
+    background-color: var(--lightpurple);
+   }
+  
+   .cancelbtn{
+       background-color: rgb(187, 185, 185);
+       border: none;
+    }
+    .cancelbtn:hover{
+       background-color: var(--lightgrey);
+   }
+   .suggestionsdescription{
+    width: 180px;
+    max-height: 150px;
+    /* margin-left: 220px; */
+    margin-top: 8px;
+    border: 2px solid grey;
+    overflow-x: hidden;
+    color: grey;
+    font-size: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .eachsuggestiondescription{
+    padding: 10px;
+    margin: 0;
+  }
+  .eachsuggestion:hover{
+    background-color: var(--lightgrey);
+  }
+    
+  .error {
+    border-color: red; /* Change border color to red when there's an error */
+  }
+  
+  .error-message {
+    color: red;
+    padding: 5px;
+    width: 70%;
+    margin: 5px 0 10px 10px; 
+    padding: 0;
+    font-size: 12px;
+  }
+  
+
+  .show-password-icon-description {
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    cursor: pointer;
+    color: black;
+  }
+  
+
+
+
+
+

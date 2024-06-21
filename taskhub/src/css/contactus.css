@@ -1,0 +1,112 @@
+.contact-background {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0%;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    padding-left: 265px;
+}
+
+.Contact-Image {
+    position: fixed;
+    height: 350px;
+}
+
+.get-in-touch {
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+}
+
+.contact-icon {
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 80px;
+    height: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+.contact-fa-icon {
+    color: #001831;
+    width: 20px;
+    height: 20px;
+}
+
+.contact-name {
+    position: absolute;
+    top: 100%; 
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-form-right {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    bottom: 3%;
+    left: 60%;
+}
+
+.form-child {
+    background-color: white;
+    color: #001831;
+    border-radius: 10px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+
+.left-children {
+    display: flex;
+    flex-direction: column;
+    color: #001831;
+    margin-right: 25px;
+}
+
+.contact-form-left {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    bottom: 20%;
+    right: 49%;
+}
+
+.greeting-quote {
+    color: #001831;
+    width: 400px;
+    text-align: center;
+}

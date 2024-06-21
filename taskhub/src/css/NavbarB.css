@@ -1,0 +1,40 @@
+:root {
+    --Navy: #001831;
+  }
+
+  body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: rgb(201, 201, 201);
+    /* float: left; */
+    top: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navcontent{
+    width: fit-content;
+    width: 40%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: none ;
+    /* border: #001831 1px solid; */
+    color: var(--Navy);
+    /* justify-content: center; */
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+
+
+}

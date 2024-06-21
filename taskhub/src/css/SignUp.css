@@ -1,0 +1,116 @@
+:root {
+  --Navy: #001831;
+}
+
+.signup .SUcontainer {
+  color: var(--Navy);
+  width:fit-content;
+  height: fit-content;
+  padding: 50px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  border-radius: 50px;
+  background-color: #e0e0e0;
+  position: absolute;
+  right: 11%;
+  top: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.signup .form-group {
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  border-radius: 7px;
+  width: 250px;
+  margin-bottom: 8px;
+  border: var(--Navy) solid 2px; /* Default border color */
+  position: relative;
+}
+
+.signup .error {
+  border-color: red; /* Change border color to red when there's an error */
+}
+
+.signup .inputbox {
+  display: flex;
+}
+
+.signup label {
+  margin-bottom: 5px;
+  font: var(--Navy);
+}
+.signup .input {
+  background-color: #e0e0e0;
+  border: 0px solid;
+  border-color: transparent;
+  height: 20px;
+  width: 80%;
+  color: #001831;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.signup .inputcode{
+  background-color: #e0e0e0;
+  border: 0px solid;
+  border-color: transparent;
+  height: 30px;
+  width: fit-content;
+  color: #001831;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+.signup .inputphno{
+  background-color: #e0e0e0;
+  border: 0px solid;
+  border-color: transparent;
+  height: 20px;
+  width: 50%;
+  color: #001831;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 0;
+
+}
+
+.signup .show-password-icon {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  cursor: pointer; 
+}
+
+.signup .button {
+  width: 40%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: var(--Navy);
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup button:hover {
+  background-color: #4c00ff;
+}
+
+
+.signup .error-message {
+  color: red;
+  padding: 5px;
+  width: 70%;
+  margin: 5px 0 10px 10px; 
+  padding: 0;
+  font-size: 12px;
+}

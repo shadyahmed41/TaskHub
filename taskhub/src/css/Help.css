@@ -1,0 +1,90 @@
+.helptop-center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+.helpheader{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0%;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    background: rgb(231, 229, 229);
+    width: 100%;
+
+}
+.helpinput[type="text"] {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 3px;
+width: 235.34px;
+height:30px;
+background-color: white;
+border: none;
+border-radius: 5px;
+color: black;
+
+}
+.helpinput[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: dodgerblue; /* Change border color on focus */
+  }
+
+  .helpcontainerhelp {
+    padding-left: 350px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    margin-top: 190px;
+    height: 100%; 
+    
+  }
+  
+  .helpboxhelp {
+    padding: 8px; 
+    margin: 8px; 
+    z-index: 1;
+    color: #878484;
+    flex: 0 0 calc(30% - 20px);
+    margin-bottom: 0;
+
+  }
+
+  .helpboxhelp h4{
+    color: #414141;
+    font-size: 15px;
+  }
+
+.helpboxhelp p{
+    color: #414141;
+    font-size: 12px;
+  }
+  
+  .helpcontainermore{
+    width: 900px;
+    height:90px;
+    background-color: rgb(229, 191, 255);
+    border-radius: 11px;
+    /* position:relative; */
+    /* left:250%; */
+    transform: translate(40%, -50%);
+    margin: 40px;
+    margin-bottom: 0;
+ 
+  }
+  .helpgetin{
+    background-color: rgb(14, 13, 56);
+    float:right;
+    padding: 8px;
+    transform: translate(-50%, 70%);
+    
+
+  }
+  

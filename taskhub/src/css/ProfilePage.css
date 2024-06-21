@@ -1,0 +1,337 @@
+:root{
+  --lightgrey: rgb(231, 229, 229);
+  --purple: #7d21b3;
+  --lightpurple: #b04ae0;
+}
+
+/* Reset some default styles for better consistency */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.profilemain{
+  background-color: white;
+  height: 100%;
+  width: 80vw;
+  padding: 50px ;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 0;
+}
+
+.profilemain .avatar-image {
+  width: 120px; 
+  height: 120px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  padding: 0;
+  margin: 0;
+}
+
+.profilemain .profile-container {
+  align-items: center;
+  width: 420px;
+  height: fit-content; 
+  margin: auto;
+  padding: 30px;
+  padding-left: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Input field styling */
+.profilemain .profileform-group {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #001831;
+  width: 100%;
+  border: none;
+  /* margin-top: 0; */
+}
+.profilemain .profileform-group h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.profilemain .profileform-group div {
+  margin-bottom: 5px;
+}
+.profilemain .form-group h3{
+  margin-bottom: 0;
+}
+
+.profilemain .form-group div{
+  display: flex;
+  align-items: center;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 0;
+  width: 400px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.profilemain .inputp {
+  background-color: var(--lightgrey);
+  width: 350px;
+  padding: 10px;
+  /* margin-top: 10px; */
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  height: 20px;
+  margin-left: 0;
+  margin-right: 10px;
+  display: flex;
+}
+
+/* Button styling */
+.profilemain .profilebutton {
+  background-color: var(--purple);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.profilemain .dbutton{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  width: 50%;
+
+}
+
+.profilemain .profilebutton:hover {
+  background-color: var(--lightpurple);
+}
+
+.profilemain .dbutton:hover {
+  background-color: black;
+}
+
+/* Style for the buttons in the dialog footer */
+.profilemain .p-button {
+  margin-left: 0.5rem;
+  height: 40px;
+  margin: 10px;
+}
+
+/* Style for the primary button in the dialog footer */
+.profilemain .p-button-primary {
+  background-color: var(--purple);
+  color: #fff;
+  border: none;
+
+}
+
+.profilemain .p-button-primary:hover {
+  background-color: var(--lightpurple);
+  color: #fff;
+  border: none;
+}
+
+/* Style for the secondary button in the dialog footer */
+.profilemain .p-button-secondary {
+  background-color: #e0e0e0;
+  color: #001831;
+  border: none;
+
+}
+.profilemain .p-button-secondary:hover {
+  background-color: white;
+  color: #001831;
+  border: none;
+}
+
+.profilemain .alert{
+  background-color: var(--lightgrey); 
+  padding-top: 70px;
+  border-radius: 10px;
+  width: 600px;
+  height: fit-content;
+  box-shadow: 0 0 10px black;
+  z-index: 100;
+  color: black;
+  align-items: center;
+
+}
+
+
+.profilemain .textbox{
+  margin-right: 10px;
+  height: 30px;
+  width: 400px ;
+  background-color: var(--lightgrey);
+  border-radius: 7px;
+  border-color: none;
+  color: black;
+  padding: 10px;
+  outline: none   ;
+}
+
+.profilemain .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) for transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilemain .inputdialog{
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+
+.profilemain .inputd{
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: grey;
+  padding: 10px;
+  font-size: 15px;
+}
+.profilemain .button2{
+  background-color: grey;
+}
+.profilemain .button2:hover{
+  background-color: rgb(199, 199, 199);
+}
+
+.profilemain .upload{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 25%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 0px solid ;
+  outline: none;
+  color: #fff;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.profilemain .upload:hover{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.profilemain .verifybtn{
+  background-color: transparent;
+  cursor: pointer;
+  width: fit-content;
+  color: grey;
+  font-size: 10px;
+  float: right;
+  border: none;
+  outline: none;
+}
+
+.profilemain .verifybtn:hover{
+  background-color: transparent;
+  border:none;
+  outline: none;
+}
+
+.p-button p-button-primary {
+
+  width: 10px;
+  padding: 0;
+  height: 30px;
+  background-color: var(--purple);
+  border: none;
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.p-button{
+ background-color: grey;
+  border: none;
+  margin: 10px;
+  /* width: 80px; */
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.show-password-icon {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  cursor: pointer;
+  color: black;
+}
+ .confirmbtn{
+  background-color: #7d21b3;
+  border: 0;
+  margin-right: 20px;
+ }
+ .confirmbtn:hover{
+  background-color: var(--lightpurple);
+ }
+
+ .cancelbtn{
+  background-color: var(--lightgrey);
+  border: none;
+ }
+ .cancelbtn:hover{
+  background-color: rgb(187, 185, 185);
+ }
+ .suggestions{
+  width: 180px;
+  max-height: 150px;
+  margin-left: 220px;
+  margin-top: 8px;
+  border: 2px solid grey;
+  overflow-x: hidden;
+  color: grey;
+  font-size: 10px;
+  padding-bottom: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+.eachsuggestion{
+  padding: 10px;
+  margin: 0;
+}
+.eachsuggestion:hover{
+  background-color: var(--lightgrey);
+}
+
+.error {
+  border-color: red; /* Change border color to red when there's an error */
+}
+
+.error-message {
+  color: red;
+  padding: 5px;
+  width: 70%;
+  margin: 5px 0 10px 10px; 
+  padding: 0;
+  font-size: 12px;
+}

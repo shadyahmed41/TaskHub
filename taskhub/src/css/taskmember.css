@@ -1,0 +1,79 @@
+:root {
+    --lightgrey: rgb(231, 229, 229);
+  --purple: #7d21b3;
+  --lightpurple: #b04ae0;
+  --lightergrey: #f4f4f4
+}
+
+.taskmember .alltasks{
+    height: fit-content;
+    width: 900px;
+    padding: 40px;
+}
+
+.taskmember .OneTask{
+    width: 100%;
+    height: fit-content;
+    /* top right bottom left */
+    padding: 10px 20px 10px 20px;
+    background-color: var(--lightgrey); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 25px; */
+    position: relative;
+}
+
+.OneTask p{
+    color: black;
+}
+
+.duedate{
+    position: absolute;
+    right: 40px;
+    font-size: 12px;
+}
+
+.arrowdown{
+    margin-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    color: grey;
+}
+
+.submittask{
+    margin-right: 20px;
+    width: 50px;
+    height: fit-content;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.taskdetails{
+    height: fit-content;
+    background-color: var(--lightgrey);
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 10px 30px ;
+    position: relative;
+    margin-left: 70px;
+}
+
+.taskdetails hr{
+    color: lightgrey;
+}
+
+.taskdetails p{
+    color: black;
+    font-size: 13px;
+}
+
+.addsubtask{
+    color: grey;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    margin-top: 15px;
+}

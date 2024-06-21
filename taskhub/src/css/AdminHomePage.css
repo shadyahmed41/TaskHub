@@ -1,0 +1,47 @@
+.analysis{
+    display: flex;
+    border-radius: 20px ;
+    margin-left: 300px;
+    color: black;
+    background-color: rgb(231, 229, 229);
+    width: 72vw;
+    height: 5vh;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    cursor: pointer;
+
+
+}
+
+.analysis2{
+    display: flex;
+    border-radius: 30px ;
+    margin-left: 300px;
+    color: black;
+    width: 72vw;
+    height: 5vh;
+    padding: 10px 30px;
+    padding-left: 100px;
+
+
+}
+
+.users{
+    margin-left: 100px;
+    background-color: rgb(231, 229, 229);
+    border-radius: 20px;
+    padding: 20px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

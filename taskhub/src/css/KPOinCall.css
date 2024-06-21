@@ -1,0 +1,173 @@
+.KPbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69vw;
+    height: 25vh;
+    overflow: auto;
+    padding: 90px 0px 40px 0px;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    background-color: rgb(231, 229, 229);
+    scrollbar-width: none;
+}
+
+/* .allkeypoints{
+    display: flex;
+    max-width:1100px ;
+    overflow: auto;
+    background-color: rgb(231, 229, 229);
+    z-index: 3;
+} */
+
+.eachkeypoint{
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #1c0747;
+    z-index: 2;
+    position: absolute;
+    top: 80px;
+    left: 278px;
+}
+.eachkeypoint p{
+    height: 50px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.joiningline{
+    width: 54px;
+    height: 15px;
+    margin: 0;
+    background-color: white;
+    border: none;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: absolute;
+}
+
+.outcomebox{
+    background-color: white;
+    width: 72vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    height: fit-content;
+    padding: 20px 50px ;
+    margin-top: 305px;
+    margin-left: 50px;
+    border-radius: 90px;
+    color: #1c0747;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.outcomeinput{
+    background-color: rgb(231, 229, 229);
+    padding: 10px;
+    width: 60%;
+    color: #1c0747;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.maincall{
+    height: 100%;
+    width: 15vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(231, 229, 229);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.insidemaincall{
+    width: 85%;
+    height: 95%;
+    background-color: white;
+}
+
+.btnmaincall{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1c0747;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+}
+
+
+.btnKP{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1c0747;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+}
+
+.currentKP{
+    width: 700px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.currentcurve{
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    height: 300px;
+    background-color: rgb(231, 229, 229);
+    margin-bottom: 0;
+}
+
+.addKP{
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    color: #1c0747;
+    font-weight: bold;
+    font-size: 12px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.eachoutcome{
+    margin-bottom: 20px;
+    background-color: rgb(231, 229, 229) ;
+    width: 70%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.endvideobtn:hover{
+    background-color: red;
+}

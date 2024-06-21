@@ -1,0 +1,81 @@
+:root {
+    --lightgrey: rgb(231, 229, 229);
+  --purple: #7d21b3;
+  --lightpurple: #b04ae0;
+  --lightergrey: #f4f4f4;
+  --navy: #1c0747;
+}
+
+
+.MSmain{
+    width: 84vw;
+    height: 100vh;
+    overflow: auto;
+    right: 0;
+    top: 0;
+    position: absolute;
+    /* background-color: #f4f4f4; */
+}
+.MSmain h2{
+    color: var(--purple);
+    padding: 15px 70px;
+}
+
+.MSmain2{
+    height: fit-content;
+    margin: 10px 50px;
+    padding: 0px 50px;
+    position: relative;
+    word-wrap: break-word;
+
+}
+
+.MSmain2text{
+    color: var(--navy);
+    padding: 0;
+    margin: 20px;
+}
+
+.KPO{
+    margin: 30px 50px;
+}
+
+.KPOrow{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.KPOtitle{
+    color: var(--purple);
+    width: 35%;
+    padding: 10px 30px;
+}
+
+.KPOcontent{
+    color: var(--navy);
+    background-color: var(--lightgrey);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    height: fit-content;
+    min-height: 50px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.participantButton{
+    color: var(--purple);
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+
+.participantButton:hover{
+    border: 2px solid var(--purple);
+}
+
+.dropdown-menu{
+    margin-left: 50px;
+}
